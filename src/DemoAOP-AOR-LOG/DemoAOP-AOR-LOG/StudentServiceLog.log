@@ -1,0 +1,10 @@
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source)
+   at DemoAOP_AOR_LOG.Services.StudentService.SelectStudent(Int32 id) in C:\Users\chaudt\Desktop\training-AOP-AOR-LOG\src\DemoAOP-AOR-LOG\DemoAOP-AOR-LOG\Services\StudentService.cs:line 94System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source)
+   at DemoAOP_AOR_LOG.Services.StudentService.InsertStudent(StudentInsertReq st) in C:\Users\chaudt\Desktop\training-AOP-AOR-LOG\src\DemoAOP-AOR-LOG\DemoAOP-AOR-LOG\Services\StudentService.cs:line 65System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source)
+   at DemoAOP_AOR_LOG.Services.StudentService.GetStudents(Int32 No) in C:\Users\chaudt\Desktop\training-AOP-AOR-LOG\src\DemoAOP-AOR-LOG\DemoAOP-AOR-LOG\Services\StudentService.cs:line 48

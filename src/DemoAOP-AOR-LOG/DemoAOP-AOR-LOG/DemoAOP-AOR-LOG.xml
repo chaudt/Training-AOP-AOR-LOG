@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DemoAOP-AOR-LOG</name>
+    </assembly>
+    <members>
+        <member name="T:DemoAOP_AOR_LOG.Controllers.StudentsController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DemoAOP_AOR_LOG.Controllers.StudentsController.#ctor(DemoAOP_AOR_LOG.Services.IStudentService1)">
+            <summary>
+            C'tor
+            </summary>
+            <param name="studentService"></param>
+        </member>
+        <member name="M:DemoAOP_AOR_LOG.Controllers.StudentsController.Delete(System.Int32)">
+            <summary>
+            Delete Student
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DemoAOP_AOR_LOG.Controllers.StudentsController.Insert(DemoAOP_AOR_LOG.Models.StudentInsertReq)">
+            <summary>
+            Insert Student
+            </summary>
+            <param name="student"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DemoAOP_AOR_LOG.Controllers.StudentsController.Update(DemoAOP_AOR_LOG.Models.StudentUpdateReq)">
+            <summary>
+            Update Student
+            </summary>
+            <param name="student"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DemoAOP_AOR_LOG.Controllers.StudentsController.GetAlls(System.Int32)">
+            <summary>
+            Get all student
+            </summary>
+            <param name="no"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DemoAOP_AOR_LOG.Controllers.StudentsController.Select(System.Int32)">
+            <summary>
+            Select Student by primary key
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
